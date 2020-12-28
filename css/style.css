@@ -1,53 +1,135 @@
+img {
+    max-width: 300px;
+}
 * {
     font-family: 'Roboto', sans-serif;
 }
 
 body {
     background-color: #F9DABD;
+    margin: 0px;
 }
 
 nav {
+    width: 100%;
     border-bottom: 4px solid #4B3E45;
 }
 
-nav a {
+.logo {
     font-size: 32px;
     font-weight: bold;
+    text-decoration: none;
     color: #4B3E45;
 }
 
 nav ul li a {
     font-size: 18px;
+    color: #4B3E45;
+}
+
+main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 80px;
 }
 
 header main div h1 {
     font-size: 42px;
     font-weight: bold;
-    color: #FEA5AB
+    color: #FEA5AB;
+    max-width: 420px;
+    margin: 80px 20px 0px 20px;
 }
 
 p {
     font-size: 18px;
     color: #4B3E45;
+    max-width: 420px;
+    margin: 20px 20px;
 }
 
 header main div button {
-    background-color: #4B3E45;
+    background-color: #FEA5AB;
     font-size: 18px;
     font-weight: bold;
     color: #ffffff;
     border: 0px;
+    border-radius: 5px;
     padding: 20px 80px;
 }
 
+header main div img {
+    display: none;
+}
+
 h2 {
+    margin: 20px 20px 0px 20px;
     font-size: 32px;
     font-weight: bold;
     color: #4B3E45;
 }
 
 h3 {
+    margin: 20px 20px 0px 20px;
     font-size: 32px;
     font-weight: bold;
     color: #4B3E45;
+}
+
+.services {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.svclist {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.svcitem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.svcitem img {
+    width: 100px;
+    height: 100px;
+    margin: 40px 0px 0px 0px;
+}
+
+.contact {
+    margin: 40px 0px 40px 0px;
+    padding: 40px 0px 40px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: #FEA5AB;
+}
+
+.contact h2 {
+    color: #ffffff;
+}
+
+.contact p {
+    color: #ffffff;
+}
+
+.contact button {
+    background-color: #4B3E45;
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffffff;
+    border: 0px;
+    border-radius: 5px;
+    padding: 20px 80px;
 }
