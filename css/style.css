@@ -176,6 +176,7 @@ h3 {
 .equipe-content {
     display: flex;
     justify-content: space-around;
+    
 }
 
 .equipe-content #lucas {
@@ -185,6 +186,8 @@ h3 {
 .equipe-content #guilherme {
     display: flex;
 }
+
+
 
 
 /* ------ */
