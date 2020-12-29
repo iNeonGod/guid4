@@ -1,3 +1,5 @@
+@charset "utf-8"
+
 img {
     max-width: 300px;
 }
@@ -150,6 +152,8 @@ h3 {
     color: #000000;
 }
 
+/*SERVICOS*/
+
 .services {
     width: 100%;
     display: flex;
@@ -183,21 +187,36 @@ h3 {
     margin: 40px 0px 0px 0px;
 }
 
+/* ----*/
+
 
 /* EQUIPE CONTENT */
 .equipe-content {
     display: flex;
     justify-content: space-around;
+    align-items: center;
     
 }
 
 
 .equipe-content #lucas {
     display: flex;
+    background-color: #ffffff;
+    
+    border-radius: 10px;
+    box-shadow: 0px 3px 9px #00000042;
+    margin: auto;
+    padding: 2px;
 }
 
 .equipe-content #guilherme {
     display: flex;
+    background-color: #ffffff;
+    
+    border-radius: 10px;
+    box-shadow: 0px 3px 9px #00000042;
+    margin: auto;
+    padding: 2px;
 }
 
 
