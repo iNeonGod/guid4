@@ -15,22 +15,24 @@
     <body>
 
         <!-- Menu -->
-        <input type="checkbox" id="btnMenu">
-        <label for="btnMenu">&#9776</label>
+       
 
         <!-- Navigation -->
-        <nav>
+        <nav class="menu">
+            <input type="checkbox" id="btnMenu">
+            <label for="btnMenu">&#9776</label>
             <a href="#" class="logo">GUID4</a>
             <ul>
-                <li><a href="#">Sobre</a></li>
-                <li><a href="#">Serviços</a></li>
-                <li><a href="#">Equipe</a></li>
-                <li><a href="#">Contato</a></li>
+                <li><a href="#"sobre>Sobre</a></li>
+                <li><a href="#servico">Serviços</a></li>
+                <li><a href="#equipe">Equipe</a></li>
+                <li><a href="#contato">Contato</a></li>
             </ul>
         </nav>
 
         <!-- Main content -->
-        <header>
+        <!--Sobre--->
+        <header id="sobre">
             <main>
                 <div>
 
@@ -48,7 +50,7 @@
         </header>
 
         <!-- Services -->
-        <section class="services">
+        <section class="services" id="servico">
             <h2>Serviços</h2>
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corrupti inventore modi eos, illo maiores dolorum, asperiores voluptas velit totam quod eaque voluptatum distinctio nam minus veniam reiciendis enim fugiat beatae!</p>
 
@@ -86,8 +88,13 @@
             </div>
         </section>
 
+        <section id="equipe">
+
+        </section>
+
+
         <!-- Contact -->
-        <section class="contact">
+        <section class="contact" id="contato">
             <h2>Contato</h2>
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis earum nam repellendus vel sapiente ipsam maiores voluptatem, aut quia commodi, minima illum recusandae dolor at provident illo esse impedit facilis?</p>
             <button>Lorem ipsum</button>
@@ -99,8 +106,12 @@
                 <a href="#" class="logo">GUID4</a>
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit sit ipsa illum est! Maiores nemo dolorum, vero magnam quod aut. Maxime accusantium itaque atque magni nam? Eos dicta pariatur id!</p>
             </div>
-            <div>
+            <div class="marca">
                 <p>Site feito por alguém. Sempre foi sobre isso.</p>
+
+                <div>
+                    <p>&copy; Devaholic</p>
+                </div>
             </div>
         </footer>
     </body>
