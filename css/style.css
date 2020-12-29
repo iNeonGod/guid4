@@ -10,6 +10,7 @@ body {
     margin: 0px;
 }
 
+/* MENU */
 #btnMenu {
     display: inline;
 }
@@ -29,7 +30,6 @@ label {
 }
 
 .menu ul {
-   
     display: flex;
     justify-content: space-around;
     /*
@@ -79,7 +79,7 @@ label {
     border-radius: 10px;
     box-shadow: 0px 0px 9px #00000042;
 }
-
+/*---*/
 
 header {
     width: 50%;
@@ -166,6 +166,24 @@ h3 {
     height: 100px;
     margin: 40px 0px 0px 0px;
 }
+
+
+/* EQUIPE CONTENT */
+.equipe-content {
+    display: flex;
+    justify-content: space-around;
+}
+
+.equipe-content #lucas {
+    display: flex;
+}
+
+.equipe-content #guilherme {
+    display: flex;
+}
+
+
+/* ------ */
 
 .contact {
     margin: 40px 0px 40px 0px;
