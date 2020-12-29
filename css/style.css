@@ -49,6 +49,7 @@ label {
     padding: 40px;
     font-weight: bold;
     text-align: center;*/
+    padding: 20px;
 }
 
 .menu ul li a {
@@ -56,7 +57,9 @@ label {
     margin: 0px;
     width: 100%;
     font-size: 18px;
+    font-weight: bold;
     color: #ffffff;
+    padding: 20px;
 }
 
 .menu a:active,
