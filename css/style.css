@@ -11,19 +11,17 @@ body {
 }
 
 #btnMenu {
-    visibility: visible;
+    display: inline;
 }
 
 label {
-    visibility: visible;
+    display: inline;
 }
 
 nav {
-    visibility: hidden;
-    display: flex;
-    flex-direction: column;
+    display: none;
     align-items: center;
-    border-bottom: 4px solid #4B3E45;
+    border-bottom: 1px solid #4B3E45;
 }
 
 nav ul {
@@ -178,11 +176,11 @@ h3 {
 
 @media screen and (min-width: 768px) {
     #btnMenu {
-        visibility: hidden;
+        display: none;
     }
 
     label {
-        visibility: hidden;
+        display: none;
     }
 
     nav {
@@ -200,6 +198,21 @@ h3 {
         align-items: center;
         width: 100%;
         margin: 0px;
+    }
+
+    main {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        text-align: center;
+        margin-bottom: 80px;
+    }
+
+    header main div img {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
     }
     
     .svclist {
