@@ -10,9 +10,44 @@ body {
     margin: 0px;
 }
 
+#btnMenu {
+    visibility: visible;
+}
+
+label {
+    visibility: visible;
+}
+
 nav {
-    width: 100%;
+    visibility: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     border-bottom: 4px solid #4B3E45;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin: 0px;
+}
+
+nav ul li {
+    width: 100%;
+    padding: 40px;
+    font-weight: bold;
+    text-align: center;
+}
+
+nav ul li a {
+    text-decoration: none;
+    margin: 0px;
+    width: 100%;
+    font-size: 18px;
+    color: #4B3E45;
 }
 
 .logo {
@@ -20,11 +55,17 @@ nav {
     font-weight: bold;
     text-decoration: none;
     color: #4B3E45;
+    margin: 0px 0px 0px 10%;
 }
 
-nav ul li a {
-    font-size: 18px;
-    color: #4B3E45;
+label[for="btnMenu"] {
+    padding: 20px;
+    background-color: #4B3E45;
+    color: #ffffff;
+    text-align: center;
+    font-size: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 9px #00000042;
 }
 
 main {
@@ -93,6 +134,7 @@ h3 {
     flex-direction: column;
     align-items: center;
 }
+
 .svcitem {
     display: flex;
     flex-direction: column;
@@ -132,4 +174,38 @@ h3 {
     border: 0px;
     border-radius: 5px;
     padding: 20px 80px;
+}
+
+@media screen and (min-width: 768px) {
+    #btnMenu {
+        visibility: hidden;
+    }
+
+    label {
+        visibility: hidden;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        border-bottom: 4px solid #4B3E45;
+        visibility: visible;
+    }
+    
+    nav ul {
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: 100%;
+        margin: 0px;
+    }
+    
+    .svclist {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
 }
