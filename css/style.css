@@ -6,7 +6,7 @@ img {
 }
 
 body {
-    background-color: #F9DABD;
+    background-color: #ffffff;
     margin: 0px;
 }
 
@@ -21,7 +21,7 @@ label {
 nav {
     display: none;
     align-items: center;
-    border-bottom: 1px solid #4B3E45;
+    border-bottom: 1px solid #e6e6e6;
 }
 
 nav ul {
@@ -45,14 +45,14 @@ nav ul li a {
     margin: 0px;
     width: 100%;
     font-size: 18px;
-    color: #4B3E45;
+    color: #333333;
 }
 
 .logo {
     font-size: 32px;
     font-weight: bold;
     text-decoration: none;
-    color: #4B3E45;
+    color: #2480f8;
     margin: 0px 0px 0px 10%;
 }
 
@@ -78,20 +78,20 @@ main {
 header main div h1 {
     font-size: 42px;
     font-weight: bold;
-    color: #FEA5AB;
+    color: #000000;
     max-width: 420px;
     margin: 80px 20px 0px 20px;
 }
 
 p {
     font-size: 18px;
-    color: #4B3E45;
+    color: #666666;
     max-width: 420px;
     margin: 20px 20px;
 }
 
 header main div button {
-    background-color: #FEA5AB;
+    background-color: #2480f8;
     font-size: 18px;
     font-weight: bold;
     color: #ffffff;
@@ -108,14 +108,14 @@ h2 {
     margin: 20px 20px 0px 20px;
     font-size: 32px;
     font-weight: bold;
-    color: #4B3E45;
+    color: #000000;
 }
 
 h3 {
     margin: 20px 20px 0px 20px;
     font-size: 32px;
     font-weight: bold;
-    color: #4B3E45;
+    color: #000000;
 }
 
 .services {
@@ -153,7 +153,7 @@ h3 {
     flex-direction: column;
     align-items: center;
     text-align: center;
-    background-color: #FEA5AB;
+    background-color: #000000;
 }
 
 .contact h2 {
@@ -165,7 +165,7 @@ h3 {
 }
 
 .contact button {
-    background-color: #4B3E45;
+    background-color: #2480f8;
     font-size: 18px;
     font-weight: bold;
     color: #ffffff;
