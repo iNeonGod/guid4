@@ -81,6 +81,10 @@ label {
 }
 
 
+header {
+    width: 50%;
+    margin: auto;
+}
 
 main {
     width: 100%;
@@ -114,6 +118,7 @@ header main div button {
     border: 0px;
     border-radius: 5px;
     padding: 20px 80px;
+    box-shadow: 0px 0px 9px #00000042;
 }
 
 header main div img {
@@ -188,6 +193,7 @@ h3 {
     border: 0px;
     border-radius: 5px;
     padding: 20px 80px;
+    box-shadow: 0px 0px 9px #00000042;
 }
 
 /*footer*/
