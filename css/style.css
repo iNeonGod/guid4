@@ -66,6 +66,11 @@ label[for="btnMenu"] {
     box-shadow: 0px 0px 9px #00000042;
 }
 
+header {
+    width: 50%;
+    margin: auto;
+}
+
 main {
     width: 100%;
     display: flex;
